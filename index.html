@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Don't End Humanity — Call to Action</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;700&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      background: #0a0a0a;
+      font-family: 'Roboto Condensed', sans-serif;
+      color: #ffffff;
+      padding: 0;
+    }
+
+    .nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      background: #111;
+      border-bottom: 3px solid #ff4500;
+    }
+
+    .nav a {
+      color: #ff4500;
+      text-decoration: none;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .nav a:hover {
+      color: #ffffff;
+    }
+
+    .nav .label {
+      color: #ffffff;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .content {
+      display: flex;
+      align-items: flex-start;
+      gap: 2.5rem;
+      max-width: 1100px;
+      margin: 2.5rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .text {
+      flex: 1;
+      text-align: left;
+    }
+
+    .text h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: clamp(3.5rem, 7vw, 3.5rem);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: #ff4500;
+      text-shadow: 3px 3px 0 #000;
+      margin-top: 0;
+      margin-bottom: 1.2rem;
+    }
+
+    .statement {
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.7rem;
+      font-weight: 700;
+      line-height: 1.35;
+      color: #ffffff;
+      margin-bottom: 1.5rem;
+    }
+
+    .description {
+      font-size: 1.18rem;
+      line-height: 1.7;
+      color: #ffffff;
+      padding: 1.rem;
+    }
+
+    .poster {
+      width: 480px;
+      max-width: 45%;
+      flex-shrink: 0;
+      border: 4px solid #ff4500;
+      box-shadow: 8px 8px 0 #000;
+    }
+
+    /* Mobile */
+    @media (max-width: 700px) {
+      .content {
+        flex-direction: column;
+      }
+      .poster {
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
+      }
+      .nav {
+        flex-direction: column;
+        gap: 0.6rem;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <a href="https://www.icanw.org/" target="_blank" rel="noopener">Learn More → ICAN</a>
+    <span class="label">Public Statement</span>
+  </nav>
+
+  <div class="content">
+    <div class="text">
+      <h1>The time to act is now</h1>
+
+      <p class="statement">
+        Nuclear weapons put every human life at risk. We refuse to accept that as inevitable.
+      </p>
+
+      <div class="description">
+        <p>
+          The continued existence and modernization of nuclear arsenals remains one of the greatest threats to human survival. A single miscalculation, accident, or escalation could end civilization within hours. Billions live under the shadow of mutually assured destruction while resources that could fight climate change, poverty, and disease are poured into weapons that must never be used. This is not abstract geopolitics, it is a direct assault on the future of every child, every city, and every ecosystem. We demand verified disarmament, a ban on new nuclear systems, and a global shift from deterrence through annihilation to security through cooperation. Humanity’s survival is non-negotiable.
+        </p>
+      </div>
+    </div>
+
+    <img src="poster.jpg" alt="Don't End Humanity protest poster" class="poster">
+  </div>
+
+</body>
+</html>
